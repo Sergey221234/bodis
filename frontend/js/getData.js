@@ -53,6 +53,7 @@ const dateTo = formatDate(today);
         // resultBlock.appendChild(resultItem);
 
         const table = document.createElement('table');
+        table.innerHTML = ''
         table.className = 'col s12';
     
         const thead = document.createElement('thead');
