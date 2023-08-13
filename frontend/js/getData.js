@@ -21,7 +21,7 @@ const dateFrom = formatDate(threeDaysAgo);
 const dateTo = formatDate(today);
   
   try {
-    const response = await fetch('http://localhost:4000/getdata', {
+    const response = await fetch('https://bodis.vercel.app/getdata', {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json'
