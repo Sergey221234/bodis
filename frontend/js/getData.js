@@ -51,7 +51,7 @@ const dateTo = formatDate(today);
         resultItem.style.fontSize = "18px";
         // resultItem.textContent = `Domain: ${domName}, estimated_revenue: ${estimated_revenue}, finalized: ${finalized}, page_query: ${page_query}, ref_adnetwork: ${ref_adnetwork}, ref_pubsite: ${ref_pubsite}, subids: ${subids}, visit_id: ${visit_id}, refKeyword: ${refKeyword}`;
         // resultBlock.appendChild(resultItem);
-        resultBlock.innerHTML = ''
+        // resultBlock.innerHTML = ''
         const table = document.createElement('table');
         
         table.className = 'col s12';
